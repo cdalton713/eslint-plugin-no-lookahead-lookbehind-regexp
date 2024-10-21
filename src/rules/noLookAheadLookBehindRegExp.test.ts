@@ -1,12 +1,14 @@
 import { RuleTester } from "eslint";
 import { noLookaheadLookbehindRegexp } from "./noLookaheadLookbehindRegex";
-
+import parser from "@typescript-eslint/parser";
 // Rule tester for when no browserslist is passed, so lookahead and lookbehind should not be allowed
 const tester = new RuleTester({
-  parser: require.resolve("@typescript-eslint/parser"),
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
+  languageOptions: {
+    parser,
+    parserOptions: {
+      ecmaFeatures: {
+        jsx: true,
+      },
     },
   },
 });
