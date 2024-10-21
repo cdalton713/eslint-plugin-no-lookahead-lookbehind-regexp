@@ -2009,15 +2009,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-no-lookahead-lookbehind-regexp@https://github.com/cdalton713/eslint-plugin-no-lookahead-lookbehind-regexp#main":
+"eslint-plugin-no-lookahead-lookbehind-regexp@https://github.com/cdalton713/eslint-plugin-no-lookahead-lookbehind-regexp":
   version: 0.4.0
-  resolution: "eslint-plugin-no-lookahead-lookbehind-regexp@https://github.com/cdalton713/eslint-plugin-no-lookahead-lookbehind-regexp.git#commit=a50a31018fc6e516d6b89c9a49d7ca15563b94d5"
+  resolution: "eslint-plugin-no-lookahead-lookbehind-regexp@https://github.com/cdalton713/eslint-plugin-no-lookahead-lookbehind-regexp.git#commit=aa9a9d5c4731fa712f8d1d9cae18d7c21dcd23f5"
   dependencies:
     browserslist: "npm:^4.18.1"
     caniuse-lite: "npm:^1.0.30001283"
   peerDependencies:
     eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || 9.0.0
-  checksum: 4c377f73496b1aa69aa55666a04c8e3839507e8c1873a8bf4f3b45dc8374e8e1ff0c8de82f16fec4990d94dff9aa1994c65a4932c1247eae00956e8710a546cd
+  checksum: 39ad66b2733bfbb1861f36cc924243add8f9312bb0cd21ef4628f518d19c28c3791280209e7669f9222c58ab6c365d0308d403d9d1925a7a037f7627932bd80b
   languageName: node
   linkType: hard
 
@@ -2037,7 +2037,7 @@ __metadata:
     eslint: "npm:^9.13.0"
     eslint-config-prettier: "npm:^8.3.0"
     eslint-plugin-eslint-plugin: "npm:^4.0.2"
-    eslint-plugin-no-lookahead-lookbehind-regexp: "https://github.com/cdalton713/eslint-plugin-no-lookahead-lookbehind-regexp#main"
+    eslint-plugin-no-lookahead-lookbehind-regexp: "https://github.com/cdalton713/eslint-plugin-no-lookahead-lookbehind-regexp"
     eslint-plugin-prettier: "npm:^4.0.0"
     jest: "npm:^27.3.1"
     prettier: "npm:^2.5.0"
